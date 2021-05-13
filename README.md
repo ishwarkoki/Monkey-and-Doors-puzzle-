@@ -1,5 +1,5 @@
 # Monkey-and-Doors-puzzle- 
-Question 
+Question :
 There are 100 doors, all closed.
 In a nearby cage are 100 monkeys.
 
@@ -8,7 +8,7 @@ The second monkey is then let out, and runs along the doors closing the 2nd, 4th
 The third monkey is let out. He attends only to the 3rd, 6th, 9th,… doors (every third door, in other words), closing any that is open and opening any that is closed, and so on.
 After all 100 monkeys have done their work in this way, what state are the doors in after the last pass?  
 
-Solution 
+Solution : 
 Look at it from the doors' point of view. I am door number N. How many monkeys will attend to me? The first monkey, obviously. If N is even, the second monkey. If N divides by 3, the third monkey …
 
 In fact, the number of monkeys that will attend to me is equal to the number of numbers that divide exactly into N.
